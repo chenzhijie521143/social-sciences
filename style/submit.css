@@ -1,0 +1,179 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\000031}}
+.content {
+  margin-top: 10px;
+  padding: 30px 20px 0px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\000034}}
+.content .radio {
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\000036}}
+.content .radio .level1, .content .radio .level2 {
+  height: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\000038}}
+.content .radio .level1 dt, .content .radio .level2 dt {
+  display: inline-block;
+  font-size: 15px;
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000313}}
+.content .radio .level1 dd, .content .radio .level2 dd {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000315}}
+.content .radio .level1 dd.selected a, .content .radio .level2 dd.selected a {
+  background: url(../img/circle-check.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000318}}
+.content .radio .level1 dd a, .content .radio .level2 dd a {
+  display: inline-block;
+  vertical-align: top;
+  width: 15px;
+  height: 15px;
+  background: url(../img/circle-off.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000325}}
+.content .radio .level1 dd h2, .content .radio .level2 dd h2 {
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000332}}
+.content .radio .level1 {
+  margin-bottom: 33px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000334}}
+.content .radio .level1 dd {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000338}}
+.content .radio .level2 dd {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000342}}
+.content .form {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000344}}
+.content .form .input-box {
+  margin: 20px 0px;
+  font-size: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000347}}
+.content .form .input-box .label {
+  display: inline-block;
+  font-size: 15px;
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000352}}
+.content .form .input-box.text {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000354}}
+.content .form .input-box.text .label {
+  position: absolute;
+  top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000358}}
+.content .form .input-box.text textarea {
+  margin-left: 75px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000362}}
+.content .form .input-box.text2 {
+  height: 500px;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000365}}
+.content .form .input-box.text2 .label {
+  position: absolute;
+  top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000369}}
+.content .form .input-box.text2 .content-box {
+  height: 500px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000371}}
+.content .form .input-box.text2 .content-box textarea {
+  height: 400px;
+  margin-left: 75px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000378}}
+.content .form .input-box input {
+  display: inline-block;
+  height: 38px;
+  width: 90%;
+  line-height: 38px;
+  font-size: 15px;
+  color: #000;
+  border: 1px solid #EAE5E5;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000388}}
+.content .form .input-box textarea {
+  display: inline-block;
+  width: 90%;
+  line-height: 38px;
+  color: #000;
+  border: 1px solid #EAE5E5;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000396}}
+.content .form .input-box .content-box {
+  width: 90%;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\0000399}}
+.content .form .input-box .content-box textarea {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003104}}
+.content .form .img-box {
+  line-height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003106}}
+.content .form .img-box .label {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  color: #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003112}}
+.content .form .img-box a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003116}}
+.content .form .img-box a img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003121}}
+.content .form .btn {
+  position: absolute;
+  bottom: 14px;
+  right: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003125}}
+.content .form .btn input {
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003131}}
+.content .form .btn .preview {
+  background: #fff;
+  border: 1px solid #EAE5E5;
+  color: #000;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/submit\.scss}line{font-family:\00003137}}
+.content .form .btn .submit {
+  margin-left: 10px;
+  background: #1CAFC0;
+  border-radius: 3px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=submit.css.map */

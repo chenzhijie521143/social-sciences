@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="./style/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="./style/base.css"/>
+		<link rel="stylesheet" type="text/css" href="./style/common.css"/>
+		<link rel="stylesheet" type="text/css" href="./style/submit.css"/>
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/com.js" ></script>
+		<script type="text/javascript" src="js/submit.js" ></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="aside">
+				<div class="logo">
+					<div class="img-logo">
+						<img src="img/logo.png">
+					</div>
+					<span class="icon-menu"><span>
+				</div>
+				<div class="menu-wrap">
+					<ul class="menu" id="menu">
+						<li class="item">
+							<div class="title">
+								<a class="release" href="javascript:;">期刊发布管理</a>
+							    <i class="icon"></i>
+							</div>
+							<ul class="menu-two">
+								<li class="two-item"><a href="./index.html">理论期刊</a></li>
+								<li class="two-item"><a href="#">政法期刊</a></li>
+							</ul>
+						</li>
+						<li class="item">
+							<div class="title active">
+								<a class="contribute" href="javascript:;">投稿管理</a>
+								<i class="icon"></i>
+							</div>
+							<ul class="menu-two active">
+								<li class="two-item active"><a href="./submit.html">文章发布</a></li>
+								<li class="two-item"><a href="./his-release.html">历史投稿</a></li>
+							</ul>
+						</li>
+						<li class="item">
+							<div class="title">
+								<a class="cls" href="javascript:;">期刊分类管理</a>
+								<i class="icon"></i>
+							</div>
+						</li>
+						<li class="item">
+							<div class="title">
+								<a class="pub" href="javascript:;">成刊管理 </a>
+								<i class="icon"></i>
+							</div>
+							<ul class="menu-two">
+								<li class="two-item"><a href="./first-trial.html">初审管理</a></li>
+								<li class="two-item"><a href="./publication.html">成刊管理</a></li>
+								<li class="two-item"><a href="./release.html">审批发布</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="person-info">
+					<div class="avatar"><a href="#"><img src="img/avatar.png" alt="头像"></a></div>
+					<div class="info">
+						<h3 class="name">黄思静</h3>
+						<div class="time-wrap">登录时间:
+							<span class="time">2017-04-05 09:20</span>
+						</div>
+						<a href="#" class="exit">退出</a>
+						<div class="vers-wrap">Version:
+							<span class="vers">20170401</span>
+						</div>
+						<span class="main-icon"></span>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="top">
+					<span class="level-one">投稿管理></span>
+					<span class="level-two">文章发布</span>
+				</div>
+				<div class="content-wrap">
+					<div class="content">
+						<div class="radio">
+							<dl class="level1">
+								<dt>一级分类：</dt>
+								<dd class="selected">
+									<a href="javascript:;"></a>
+									<h2>理论月刊</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;"></a>
+									<h2>理论周刊</h2>
+								</dd>
+							</dl>
+							<dl class="level2">
+								<dt>二级分类：</dt>
+								<dd class="selected">
+									<a href="javascript:;"></a>
+									<h2>专稿</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;"></a>
+									<h2>马克思主义研究</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;" ></a>
+									<h2>哲学论丛</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;"></a>
+									<h2>文史天地</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;" ></a>
+									<h2>法政探索</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;"></a>
+									<h2>经济纵横</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;" ></a>
+									<h2>社会经纬</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;"></a>
+									<h2>热点关注</h2>
+								</dd>
+								<dd>
+									<a href="javascript:;"></a>
+									<h2>全球视野</h2>
+								</dd>
+							</dl>
+						</div>
+					    <form class="form" action="#" method="method">
+					    	<div class="input-box">
+					    		<label class="label">文章标题：</label>
+					    		<input type="text" name="title" class="title"/>
+					    	</div>
+					    	<div class="input-box">
+					    		<label class="label">第二作者：</label>
+					    		<input type="text" name="author" class="author"/>
+					    	</div>
+					    	<div class="input-box">
+					    		<label class="label">作者单位：</label>
+					    		<input type="text" name="address" class="address"/>
+					    	</div>
+					    	<div class="input-box">
+					    		<label class="label">关 键 词 &nbsp;：</label>
+					    		<input type="text" name="keyword" class="keyword"/>
+					    	</div>
+					    	<div class="input-box text">
+					    		<label class="label">文章摘要：</label>
+					    		<textarea  name="abstract" class="abstract"/></textarea>
+					    	</div>
+					    	<div class="input-box text2">
+					    		<label class="label">内容详情：</label>
+					    		<div class="content-box">
+					    			<textarea class="input-content" name="content"></textarea>
+					    		</div>
+					    	</div>
+					    	<div class="input-box text">
+					    		<label class="label">参考文献：</label>
+					    		<textarea  name="reference" class="reference"/></textarea>
+					    	</div>
+					    	<div class="img-box">
+					    		<span class="label">添加图片：</span>
+					    		<a href="#"><img src="./img/add.gif"/></a>
+					    	</div>
+					    	<div class="btn">
+					    		<input type="button" class="preview" name="preview" value="预览"/>
+					    		<input type="submit" class="submit" name="submit" value="提交"/>
+					    	</div>
+					    </form>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</body>
+</html>

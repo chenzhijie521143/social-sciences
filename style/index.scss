@@ -1,0 +1,148 @@
+.date-position{
+    position: absolute;
+    top: 100px;
+    left: 736.531px;
+    z-index: 1;
+    display: block;
+}
+.content{
+    margin-top:10px;
+    padding:30px 20px 0px 20px;
+    .select{
+        position:relative;
+        height:35px;
+        line-height: 35px;
+        margin-bottom:20px;
+        .radio{
+            float:left;
+            height:35px;
+            dl{
+                margin-top:-2px;
+            }
+            dl dd{
+                display:inline-block;
+                height:35px;
+                line-height: 35px;
+                margin-right:15px;
+                font-size:0px;
+                color:#b2b2b2;
+                &.selected a{
+                    background:url(../img/checked.png) no-repeat;
+                }
+                a{
+                    display:inline-block;
+                    vertical-align:top;
+                    margin:6px 7px 0 0;
+                    width:20px;
+                    height:20px;
+                    border:1px solid #eae5e5;
+                    border-radius:2px;
+                    
+                }
+                h2{
+                    display:inline-block;
+                    font-size:13px;
+                    cursor:pointer;
+                    &:hover{  
+                        color:#1CAFC0;
+                    }
+                }
+            }
+        }
+        form{
+            float:left;
+            input,h2{
+                float:left;
+            }
+            input::-webkit-input-placeholder{
+                color:#b2b2b2;
+            }
+            input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+                color:#b2b2b2;
+            }
+            input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+                color:#b2b2b2;
+            }
+            input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+                color:red;
+            }
+            .keyword,.time{
+                width:158px;
+                height:33px;
+                line-height: 33px;
+                text-indent: 10px;
+                font-size:13px;
+                color:#b2b2b2;
+                border:1px solid #eae5e5;
+                border-radius:3px;
+                margin-right: 10px;
+            }
+            .search{
+                position:absolute;
+                padding:0px 25px;
+                font-size:13px;
+                background:#1cafc0;
+                color:#fff;
+                border-radius:3px;
+            }
+        }
+    }
+    .main-content{
+        width:100%;
+        height:auto;
+        .list{
+            .item{
+                float:left;
+                position:relative;
+                width:33.3%;
+                height:249px;
+                .item-info{
+                    display:block;
+                    width:82%;
+                    height:249px;
+                    border:1px solid #1CAFC0;
+                    border-radius:5px;
+                    padding:20px;
+                    .avatar{
+                        width:148px;
+                        height:209px;
+                        margin:20px 0 20px 20px;
+                        img{
+                            border-radius:5px;
+                            width:100%;
+                        }
+                    }
+                    .time-wrap{
+                        position:absolute;
+                        top:40px;
+                        right:20px;
+                        .time{
+                            line-height:30px;
+                            font-size:22px;
+                        }
+                        .count{
+                            display:block;
+                            margin:10px 0px 0px 35px;
+                            line-height: 14px;
+                            font-size:14px;  
+                        }
+                    }
+                }
+                .offline{
+                    position:absolute;
+                    right:33px;
+                    bottom:0px;
+                    display:inline-block;
+                    font-size:14px; 
+                    color:#1CAFC0;
+                    padding:3px 6px;
+                    border:1px solid #1CAFC0;
+                    border-radius:3px;
+                }
+            }
+        }
+    }
+}
+ 
+
+

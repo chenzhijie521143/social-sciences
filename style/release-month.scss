@@ -1,0 +1,232 @@
+.wrap .main .top .level-one{
+    font-weight: bold;
+    color:#635e5e;
+}
+.wrap .main .top .level-two{
+    font-weight: bold;
+    color:#635e5e;
+}
+.wrap .main .top .level-three{
+    font-weight: bold;
+    color:#1CAFC0;
+}
+.wrap .main .nav{
+    width:96%;
+    margin:0 auto;
+    margin-bottom:27px;
+    .nav-list{
+        height:40px;
+        font-size:0px;
+        li{
+            display:inline-block;
+            width:128px;
+            height:40px;
+            background:#fff;
+            .nav-item{
+                display:inline-block;
+                width:128px;
+                height:inherit;
+                line-height:40px;
+                text-align:center;
+                font-size:14px;
+                color:#B2B2B2;
+                border-right:1px solid #ccc;
+            }
+            &.active,&:hover{
+                a{
+                    background:#e8ebf0;
+                    color:#000;
+                    font-weight: bold;
+                }
+            }
+            &:first-child{
+                a{
+                   letter-spacing: 10px;
+                } 
+            }
+            &:last-child{
+                a{
+                   border:none;
+                } 
+            }
+        }
+    }
+}
+.content{
+    margin-top:10px;
+    padding:30px 20px 0px 20px;
+    .select{
+        position:relative;
+        height:35px;
+        line-height: 35px;
+        margin-bottom:20px;
+        .radio{
+            float:left;
+            height:35px;
+            dl{
+                margin-top:-2px;
+            }
+            dl dd{
+                display:inline-block;
+                height:35px;
+                line-height: 35px;
+                margin-right:15px;
+                font-size:0px;
+                color:#b2b2b2;
+                a{
+                    display:inline-block;
+                    vertical-align:top;
+                    margin:6px 7px 0 0;
+                    width:20px;
+                    height:20px;
+                    border:1px solid #eae5e5;
+                    border-radius:2px;
+                    &.on{
+                        background:url(../img/checked.png) no-repeat;
+                    }
+                    &.off{
+                        border:1px solid #ccc;
+                        border-radius:2px;
+                    }
+                }
+                h2{
+                    display:inline-block;
+                    font-size:13px;
+                }
+            }
+        }
+        form{
+            float:left;
+            input,h2{
+                float:left;
+            }
+            .keyword,.time{
+                width:158px;
+                height:33px;
+                line-height: 33px;
+                text-indent: 10px;
+                font-size:13px;
+                color:#b2b2b2;
+                border:1px solid #eae5e5;
+                border-radius:3px;
+                margin-right: 10px;
+            }
+            .search{
+                position:absolute;
+                padding:0px 30px;
+                font-size:12px;
+                background:#1cafc0;
+                color:#fff;
+                border-radius:3px;
+            }
+        }
+    }
+    .main-content{
+        width:100%;
+        height:auto;
+        .list{
+            .item{
+                float:left;
+                position:relative;
+                width:33%;
+                height:249px; 
+                .item-info{
+                    position:relative;
+                    display:block;
+                    width:82%;
+                    border:1px solid #CCCCCC;
+                    border-radius:5px;
+                    margin-right:20px;
+                    padding:20px;
+                    &.active{
+                        border:1px solid #1CAFC0;
+                    }
+                    .time{
+                        font-size:12px;
+                        color:#B2B2B2;
+                        margin-bottom:15px;
+                    }
+                    .cont{
+                        .title{
+                            line-height: 35px;
+                            font-size:18px;
+                            color:#545151;
+                            white-space: nowrap;
+                            overflow:hidden;
+                            text-overflow:ellipsis;
+                        }
+                        p{
+                            height:100px;
+                            font-size:13px;
+                            color:#B2B2B2;
+                            line-height:25px;
+                            margin-bottom:10px;
+                            overflow:hidden;
+                            text-overflow:ellipsis;
+                            text-indent:25px;
+                        }   
+                    }
+                    .count{
+                        font-size:16px;
+                        color:#8e8d8d;
+                    }
+                    .bot{
+                        margin-top:5px;
+                        .avatar{
+                            display:inline-block;
+                            vertical-align: top;
+                            width:40px;
+                            height:40px;
+                            img{
+                                width:100%;
+                                border-radius:50%;
+                            }
+                        }
+                        .author-info{
+                            display:inline-block;
+                            font-size:0px;
+                            .name{
+                                font-size:14px;
+                                color:#8e8d8d;
+                                padding-bottom:10px;
+                            }
+                            .university{
+                                font-size:12px;
+                                color:#B2B2B2;
+                            }
+                        }
+                    }
+                    .action{
+                        position:absolute;
+                        right:20px;
+                        bottom:26px;
+                        .reject{
+                            font-size:12px;
+                            padding:2px 7px;
+                            border:1px solid #f68271;
+                            color:#f68271;
+                            border-radius:3px;
+                        }
+                        .employ{
+                            font-size:12px;
+                            padding:2px 7px;
+                            border:1px solid #1CAFC0;
+                            color:#1CAFC0;
+                            border-radius:3px;
+                        }
+                    }
+                    .publiced{
+                        position:absolute;
+                        top:20px;
+                        right:20px;
+                        font-size: 12px;
+                        color:#B2B2B2;
+                    }
+                }
+            }
+        }
+    }
+}
+ 
+
+

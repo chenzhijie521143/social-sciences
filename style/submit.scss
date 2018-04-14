@@ -1,0 +1,146 @@
+.content{
+    margin-top:10px;
+    padding:30px 20px 0px 20px;
+    .radio{
+        height: auto;
+        .level1,.level2{
+            height:15px;
+            dt{
+                display:inline-block;
+                font-size:15px;
+                color:#ccc;
+            }
+            dd{
+                display:inline-block;
+                &.selected a{
+                    background:url(../img/circle-check.png) no-repeat;
+                }
+                a{
+                    display:inline-block; 
+                    vertical-align:top;   
+                    width:15px;
+                    height:15px;
+                    background:url(../img/circle-off.png) no-repeat;
+                }
+                h2{
+                    display:inline-block;
+                    font-size:13px;
+                    cursor:pointer;
+                }
+            }
+        }
+        .level1 {
+            margin-bottom:33px;
+            dd{
+              margin-right:20px;
+            }
+        }
+        .level2 dd{
+            margin-right:20px;
+        }
+    }
+    .form{
+        position:relative;
+        .input-box{
+            margin:20px 0px;
+            font-size:0px;
+            .label{
+                display:inline-block;
+                font-size:15px;
+                color:#ccc;
+            }
+            &.text{
+                position:relative;
+                .label{
+                    position:absolute;
+                    top:10px;
+                }
+                textarea{
+                  margin-left:75px;
+                }
+            }
+            &.text2{
+                height:500px;
+                position:relative;
+                .label{
+                    position:absolute;
+                    top:20px;
+                }
+                .content-box{
+                    height:500px;
+                    textarea{
+                      height:400px;
+                      margin-left:75px;
+                    }
+                }
+                
+            }
+            input{
+                display:inline-block;
+                height:38px;
+                width:90%;
+                line-height:38px;
+                font-size:15px;
+                color:#000;
+                border:1px solid #EAE5E5;
+                border-radius:5px;
+            }
+            textarea{
+                display:inline-block;
+                width:90%;
+                line-height:38px;
+                color:#000;
+                border:1px solid #EAE5E5;
+                border-radius:5px;
+            }
+            .content-box{
+                width:90%;
+                display:inline-block;
+                textarea{
+                    width:100%;
+                }
+            }
+        }
+        .img-box{
+            line-height: 40px;
+            .label{
+                display:inline-block;
+                vertical-align: top;
+                font-size:15px;
+                color:#ccc;
+            }
+            a{
+                display:inline-block;
+                width:40px;
+                height:40px;
+                img{
+                    width:100%;
+                }
+            }
+        }
+        .btn{
+            position:absolute;
+            bottom:14px;
+            right:13px;
+            input{
+                width:70px;
+                height:30px;
+                font-size:15px;
+                cursor:pointer;
+            }
+            .preview{
+                background:#fff;
+                border:1px solid #EAE5E5;
+                color:#000;
+                border-radius:3px;
+            }
+            .submit{
+                margin-left:10px;
+                background:#1CAFC0;
+                border-radius:3px;
+                color:#fff;
+            }
+        }
+    }
+}
+

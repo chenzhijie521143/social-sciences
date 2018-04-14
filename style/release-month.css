@@ -1,0 +1,266 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\000031}}
+.wrap .main .top .level-one {
+  font-weight: bold;
+  color: #635e5e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\000035}}
+.wrap .main .top .level-two {
+  font-weight: bold;
+  color: #635e5e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\000039}}
+.wrap .main .top .level-three {
+  font-weight: bold;
+  color: #1CAFC0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000313}}
+.wrap .main .nav {
+  width: 96%;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000317}}
+.wrap .main .nav .nav-list {
+  height: 40px;
+  font-size: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000320}}
+.wrap .main .nav .nav-list li {
+  display: inline-block;
+  width: 128px;
+  height: 40px;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000325}}
+.wrap .main .nav .nav-list li .nav-item {
+  display: inline-block;
+  width: 128px;
+  height: inherit;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #B2B2B2;
+  border-right: 1px solid #ccc;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000336}}
+.wrap .main .nav .nav-list li.active a, .wrap .main .nav .nav-list li:hover a {
+  background: #e8ebf0;
+  color: #000;
+  font-weight: bold;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000343}}
+.wrap .main .nav .nav-list li:first-child a {
+  letter-spacing: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000348}}
+.wrap .main .nav .nav-list li:last-child a {
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000355}}
+.content {
+  margin-top: 10px;
+  padding: 30px 20px 0px 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000358}}
+.content .select {
+  position: relative;
+  height: 35px;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000363}}
+.content .select .radio {
+  float: left;
+  height: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000366}}
+.content .select .radio dl {
+  margin-top: -2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000369}}
+.content .select .radio dl dd {
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 15px;
+  font-size: 0px;
+  color: #b2b2b2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000376}}
+.content .select .radio dl dd a {
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px 7px 0 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eae5e5;
+  border-radius: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000384}}
+.content .select .radio dl dd a.on {
+  background: url(../img/checked.png) no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000387}}
+.content .select .radio dl dd a.off {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000392}}
+.content .select .radio dl dd h2 {
+  display: inline-block;
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\0000398}}
+.content .select form {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003100}}
+.content .select form input, .content .select form h2 {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003103}}
+.content .select form .keyword, .content .select form .time {
+  width: 158px;
+  height: 33px;
+  line-height: 33px;
+  text-indent: 10px;
+  font-size: 13px;
+  color: #b2b2b2;
+  border: 1px solid #eae5e5;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003114}}
+.content .select form .search {
+  position: absolute;
+  padding: 0px 30px;
+  font-size: 12px;
+  background: #1cafc0;
+  color: #fff;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003124}}
+.content .main-content {
+  width: 100%;
+  height: auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003128}}
+.content .main-content .list .item {
+  float: left;
+  position: relative;
+  width: 33%;
+  height: 249px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003133}}
+.content .main-content .list .item .item-info {
+  position: relative;
+  display: block;
+  width: 82%;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003141}}
+.content .main-content .list .item .item-info.active {
+  border: 1px solid #1CAFC0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003144}}
+.content .main-content .list .item .item-info .time {
+  font-size: 12px;
+  color: #B2B2B2;
+  margin-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003150}}
+.content .main-content .list .item .item-info .cont .title {
+  line-height: 35px;
+  font-size: 18px;
+  color: #545151;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003158}}
+.content .main-content .list .item .item-info .cont p {
+  height: 100px;
+  font-size: 13px;
+  color: #B2B2B2;
+  line-height: 25px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-indent: 25px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003169}}
+.content .main-content .list .item .item-info .count {
+  font-size: 16px;
+  color: #8e8d8d;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003173}}
+.content .main-content .list .item .item-info .bot {
+  margin-top: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003175}}
+.content .main-content .list .item .item-info .bot .avatar {
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003180}}
+.content .main-content .list .item .item-info .bot .avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003185}}
+.content .main-content .list .item .item-info .bot .author-info {
+  display: inline-block;
+  font-size: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003188}}
+.content .main-content .list .item .item-info .bot .author-info .name {
+  font-size: 14px;
+  color: #8e8d8d;
+  padding-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003193}}
+.content .main-content .list .item .item-info .bot .author-info .university {
+  font-size: 12px;
+  color: #B2B2B2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003199}}
+.content .main-content .list .item .item-info .action {
+  position: absolute;
+  right: 20px;
+  bottom: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003203}}
+.content .main-content .list .item .item-info .action .reject {
+  font-size: 12px;
+  padding: 2px 7px;
+  border: 1px solid #f68271;
+  color: #f68271;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003210}}
+.content .main-content .list .item .item-info .action .employ {
+  font-size: 12px;
+  padding: 2px 7px;
+  border: 1px solid #1CAFC0;
+  color: #1CAFC0;
+  border-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/release-month\.scss}line{font-family:\00003218}}
+.content .main-content .list .item .item-info .publiced {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 12px;
+  color: #B2B2B2;
+}
+
+/*# sourceMappingURL=release-month.css.map */

@@ -1,0 +1,98 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\000031}}
+.wrap .main .top .level-one {
+  font-weight: bold;
+  color: #635e5e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\000035}}
+.wrap .main .top .level-two {
+  font-weight: bold;
+  color: #635e5e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\000039}}
+.wrap .main .top .level-three {
+  font-weight: bold;
+  color: #635e5e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000313}}
+.wrap .main .top .level-four {
+  font-weight: bold;
+  color: #1CAFC0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000318}}
+.wrap .main .content-wrap {
+  width: 96%;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000323}}
+.wrap .main .content-wrap .content {
+  margin-top: 10px;
+  background: #fff;
+  padding: 20px 20px 0px 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000329}}
+.wrap .main .content-wrap .content .article {
+  padding-top: 10px;
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000334}}
+.wrap .main .content-wrap .content .article .title {
+  line-height: 50px;
+  font-size: 30px;
+  color: #333232;
+  margin-bottom: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000340}}
+.wrap .main .content-wrap .content .article .article-info {
+  font-size: 12px;
+  color: #B2B2B2;
+  margin-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000345}}
+.wrap .main .content-wrap .content .article .keyword {
+  line-height: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000347}}
+.wrap .main .content-wrap .content .article .keyword h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #7d7979;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000354}}
+.wrap .main .content-wrap .content .article .keyword .words {
+  font-size: 14px;
+  color: #908e8e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000359}}
+.wrap .main .content-wrap .content .article .abstract {
+  line-height: 23px;
+  margin-bottom: 35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000362}}
+.wrap .main .content-wrap .content .article .abstract h2 {
+  display: inline-block;
+  font-size: 14px;
+  color: #7d7979;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/asus\/Desktop\/social\%20sciences\/style\/article\.scss}line{font-family:\0000369}}
+.wrap .main .content-wrap .content .article .abstract .descrip {
+  display: inline;
+  font-size: 14px;
+  color: #908e8e;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=article.css.map */

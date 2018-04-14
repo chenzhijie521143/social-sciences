@@ -1,0 +1,183 @@
+body,html{
+    font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    background: #f5f5f5;
+}
+.wrap{
+    width:auto;
+    background:#f5f5f5;
+    .aside{
+        position:relative;
+        float:left;
+        width:280px;
+        height:1080px;
+        background-color:#1d1d1d;
+        .logo{
+            position:relative;
+            padding:24px 20px 0px 20px;
+            margin-bottom:60px;
+            width:240px;
+            height:40px;
+            .icon-menu{
+                display:block;
+                position:absolute;
+                top:36px;
+                right:20px;
+                width:18px;
+                height:12px;
+                background:url(../img/icon-menu.png) no-repeat;
+            }
+        }
+        .menu-wrap{
+            width:100%;
+            .menu{
+                .item {
+                    .title{ 
+                        position:relative;
+                        padding-left:30px;
+                        padding-right:20px;
+                        width:230px;
+                        line-height: 45px;
+                        &.active{
+                            background:#1cafc0;
+                            .icon{
+                                position:absolute;
+                                right:20px;
+                                top:18px;
+                                background:url(../img/down.png) no-repeat;
+                                display:block;
+                                width:10px;
+                                height:10px;
+                            }
+                        }
+                        a{  
+                            display:block;
+                            padding-left:30px;
+                            font-size:16px;
+                            color:#fff;
+                            height:45px;
+                            &.release{
+                                background:url(../img/icon-releas.png) no-repeat;
+                                background-position: 0 15px;
+                            }
+                            &.contribute{
+                                background:url(../img/icon-contribute.png) no-repeat;
+                                background-position: 0 15px;
+                            }
+                            &.cls{
+                                background:url(../img/icon-class.png) no-repeat;
+                                background-position: 0 15px;
+                            }
+                            &.pub{
+                                background:url(../img/icon-pub.png) no-repeat;
+                                background-position: 0 15px;
+                            }
+                        }
+                    }
+                    .menu-two{
+                        display:none;
+                        width:160px;
+                        margin:0 auto;
+                        padding:15px 0px;
+                        &.active{
+                            display:block;
+                            .two-item{
+                                height: 36px;
+                                line-height: 36px;
+                                &.active,&:hover{
+                                    a{
+                                        color:#1CAFC0;
+                                    }
+                                }
+                            }
+                        }
+                        .two-item{
+                            height: 36px;
+                            line-height: 36px;
+                            a{
+                                color:#b2b2b2;    
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .person-info{
+            position:absolute;
+            bottom:37px;
+            left:auto;
+            width:280px;
+            text-align:center;
+            .avatar{
+                margin-bottom:10px;
+                a{
+                    display:inline-block;
+                    width:78px;
+                    height:78px;
+                }
+            }
+            .info{
+                width:100%;
+                height:auto;
+                position:relative;
+                .name{
+                    font-size:17px;
+                    line-height: 17px;
+                    color:#fff;
+                    padding-bottom:10px;
+                }
+                .time-wrap{
+                    font-size:15px;
+                    color:#474747;
+                    padding-bottom:16px;
+                    font-weight: bold;
+                }
+                .exit{
+                    display:block;
+                    font-size:16px;
+                    color:#474747;
+                    padding-bottom:22px;
+                    &:hover{
+                        color:#1CAFC0;
+                    }
+                }
+                .vers-wrap{
+                    font-size:15px;
+                    color:#474747;
+                    padding-bottom:28px;
+                    font-weight: bold;
+                }
+                .main-icon{
+                    display:inline-block;
+                    width:28px;
+                    height:26px;
+                    background:url(../img/main.png) no-repeat;
+                }
+            }
+        }
+    }
+    .main{
+        margin-left:280px;
+        padding-bottom:1px;
+        .top{
+            height:50px;
+            line-height: 50px;
+            padding:0 36px;
+            background:#fff;
+            margin-bottom:30px;
+            .level-one{
+                font-weight: bold;
+                color:#635e5e;
+            }
+            .level-two{
+                font-weight: bold;
+                color:#1CAFC0;
+            }
+        }
+        .content-wrap{
+            width:96%;
+            background:#fff;
+            margin:0px auto;
+            border-radius:5px;
+        }    
+    }
+}
